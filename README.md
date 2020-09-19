@@ -1,5 +1,14 @@
 # Pytorch-YOLOv4
 
+[command memo]  
+darknet weights -> onnx model
+
+`python demo_darknet2onnx.py *.cfg *.weights ./data/giraffe.jpg`
+
+[reference]  
+https://medium.com/analytics-vidhya/using-yolov4-on-nvidia-deepstream-5-0-89d8c1e6fd1d
+
+
 ![](https://img.shields.io/static/v1?label=python&message=3.6|3.7&color=blue)
 ![](https://img.shields.io/static/v1?label=pytorch&message=1.4&color=<COLOR>)
 [![](https://img.shields.io/static/v1?label=license&message=Apache2&color=green)](./License.txt)
